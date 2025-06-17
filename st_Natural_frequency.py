@@ -1,8 +1,9 @@
-from matplotlib import pyplot as plt
+#Free Vibration of a Body with Damping and Spring
+# This code calculates the natural frequency of a body with damping and spring, and plots the displacement over time.
 import streamlit as st
 import numpy as np
 import pandas as pd
-
+from matplotlib import pyplot as plt
 ##  python -m streamlit run .\st_Natural_frequency.py
 # Title
 st.title("Free Vibration of a Body with Damping and Spring")
